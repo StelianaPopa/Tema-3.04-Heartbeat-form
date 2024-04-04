@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container-section {
+    padding: 30px;
+    display: flex;
+}
+
+.container-section-left {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+}
+
+.container-section-left-logo {
+    width: 30%;
+    height: 100%;
+
+}
+
+.container-section-left-text {
+    width: 70%;
+    height: 100%;
+    padding: 200px 30px;
+}
+
+.container-section-form {
+    height: 400px;
+    padding: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: auto;
+}
+
+
+.container-section-form-email {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-section-form label {
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-section-form-email input {
+    font-size: 20px;
+    border: none;
+}
+
+.container-section-form-names {
+    display: flex;
+    gap: 36px;
+}
+
+.container-section-form-firstname, .container-section-form-lastname {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-section-form-names input {
+    padding: 8px;
+    font-size: 20px;
+    width: 200px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 8px;
+}
+
+.container-section-form-location {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-section-form-location input {
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 8px;
+}
+.container-section-form-location p {
+    color: grey;
+    font-size: 16px;
+}
+
+.container-section-form-linkedin {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-section-form-linkedin input{
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid rgb(201, 199, 199);
+    border-radius: 8px;
+}
+.container-section-right {
+    width: 50%;
+    height: 60vh;
+    padding: 200px 30px;
+    position: relative;
+    
+}
+
+.container-section-right-logo {
+    height: auto;
+    position: absolute;
+    padding-top: 170px;
+    right: 200px;
+}
+
+.container-section-right-image {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+.container-section-right-card {
+    max-width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: -2px -2px 10px -5px ;
+    padding: 16px;
+
+}
+
+.container-section-right-card-img-profil {
+    width: 120px;
+    height: 120px;
+    border-radius: 180px;
+}
+
+.container-section-right-card-part1 {
+    display: flex;
+    gap: 16px;
+    padding-bottom: 16px;
+}
+
+.container-section-right-card-names {
+    display: flex;
+    gap: 5px;
+}
+
+.container-section-right-card-part1-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    gap: 8px;
+    
+}
+
+.container-section-right-card-part1-text p {
+    color: grey;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-separator {
+    color: rgb(231, 226, 226);
+    
+}
+
+.container-section-right-card-part2 {
+    padding-top: 20px;
+    font-size: 18px;
+}
